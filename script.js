@@ -19,8 +19,6 @@ const tasks = [
     { question: "der Film - schon beginnen - .", answer: "Der Film hat schon begonnen." }
 ];
 
-
-
 const container = document.getElementById("cardsContainer");
 const fireworks = document.getElementById("fireworks");
 
@@ -124,4 +122,3 @@ toggleBtn.addEventListener("click", () => {
     container.classList.toggle("stack-mode", isStacked);
     container.classList.toggle("grid-mode", !isStacked);
 });
-

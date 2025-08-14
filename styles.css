@@ -163,8 +163,8 @@ h1 {
     word-break: break-word;
     /* overflow-wrap: break-word; */
     backface-visibility: hidden;
-    background: linear-gradient(135deg, #e1bee7, #c4a8e0);
-    /* Roter Farbverlauf =  135deg, #ff9999, #ffcccc */
+    background: linear-gradient(135deg, #ffcccc, #ff9999);
+    /* Roter Farbverlauf =  135deg, #ffcccc, #ff9999 */
     /* Grüner Farbverlauf =  135deg, #b3d285, #70b848 */
     /* Violetter Farbverlauf =  135deg, #e1bee7, #c4a8e0 */
 }
@@ -231,7 +231,7 @@ footer {
     bottom: 20px;
     right: 20px;
     z-index: 1000;
-    background-color: #c4a8e0;
+    background-color: #ff9999
     color: white;
     border: none;
     padding: 10px 15px;
@@ -243,7 +243,7 @@ footer {
 }
 
 #toggleLayoutBtn:hover {
-    background-color: #e1bee7;
+    background-color: #ffcccc;
 }
 
 /* layout switching modes */
